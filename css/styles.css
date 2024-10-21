@@ -1,0 +1,1096 @@
+* {margin: 0;
+    padding: 0;
+    border: 0;}
+* {
+    box-sizing: border-box;
+    }
+
+img, video {max-width: 100%;
+        display: block;}
+    
+video {
+    margin: 0 auto 4%;
+}
+
+main h3 {
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 30px;
+}
+
+main p{
+    font-family: "Yaldevi", sans-serif;
+}
+
+/*Mobile*/
+header{ top: 0;
+    background-color: #ffffff;
+    height: 130px;}
+
+header img{
+    padding: 20px;
+    margin-right: 50%;
+    width: 7em;
+    height: 7em;
+    }
+
+
+.mobile-nav a{
+    color: rgb(204, 114, 30);
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 30px;
+    display: block;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+}
+
+.mobile-nav a:hover{
+    background-color: rgb(247, 247, 145);
+    font-size: 1.5em;
+    border-radius: 50em;
+}
+    
+.mobile-nav a.menu-icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.tablet-desktop, #menu-links {
+    display: none;
+}
+/*Mobile home*/
+#mangood img {
+    float: right;
+}
+#mangood h1 {
+    padding-top: 40px;
+    text-align: center;
+    color: #FFBF00;
+    font-size: 80px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 600;
+}
+
+#mangood p {
+    font-family: "Yaldevi", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #C49102;
+    margin-bottom: 100px;;
+}
+
+.grid {
+    background-color: #FFBF00;
+    padding: 50px;
+}
+
+.frame {
+    border-radius: 60px;
+    width: 300px;
+    background-color:#48A3A5;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 7px rgba(31, 30, 30, 0.205);
+}
+
+.frame img{
+    width: 250px;
+    height: 250px;
+    border-radius: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frame .pic-text {
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    padding: 20px;
+    width: 200px;
+    font-size: 30px;
+    font-family: "Londrina Solid", sans-serif;
+    color: rgb(196, 145, 2);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feedback {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    width: 400px;
+    height: 300px;
+    background-color: #FCF4A3;
+    border-radius: 80px;
+    font-family: "Lora", serif;
+    box-shadow: 4px 10px rgba(31, 30, 30, 0.205);
+}
+
+.feedback h2 {
+    text-align: center;
+    width: 310px;
+    color:#C49102;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+.feedback #fb{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+}
+.feedback #fb a{
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: #C49102;
+    box-shadow: 4px 10px rgba(31, 30, 30, 0.205);
+}
+
+/*Mobile facts*/
+
+#history{
+    padding: 30px;
+}
+
+h3{
+    font-size: 40px;
+    font-family: "Londrina Solid", sans-serif;
+    color: rgb(196, 145, 2);
+    text-align: center;
+    padding: 30px;
+}
+
+#countries a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(131, 215, 248);
+    padding: 15px;
+    border-radius: 50px;
+}
+
+#countries {
+    text-align: center;
+}
+
+#countries img{
+    padding-top: 20px;
+}
+
+.cultivation {
+    background: linear-gradient(to right, #2fa4a8, rgb(2, 56, 40));
+    color: white;
+}
+
+.cultivation h3{
+    color: white;
+}
+.cultivation p{
+    padding: 0 40px 20px 30px;
+
+}
+.cultivation #image{
+    height: 100%;
+    width: 100%;
+}
+
+.gridtwo {
+    grid-template-columns: auto auto auto;
+    grid-gap: 80px;
+    border-radius: 80px;
+
+}
+
+.frametwo {
+    border-radius: 80px;
+    width: 250px;
+    background-color:rgb(196, 145, 2);
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frametwo img{
+    width: 250px;
+    height: 250px;
+    border-radius: 80px;
+}
+
+.types h3{
+    padding-top: 120px;
+}
+
+figure {
+    margin-bottom: 40px;
+}
+
+.frametwo .pic-text {
+    font-family: "Londrina Solid", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    color: white;
+}
+
+#more-info {
+    background: linear-gradient(to bottom, #0088CC, #004466);
+    padding: 40px;
+    color: white;
+    padding: 30px;
+}
+
+#more-info h2{
+    font-family: "Londrina Solid", sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 28px;
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+#more-info td{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+
+/*Mobile nutrition*/
+
+.vit-a {
+    padding: 30px;
+}
+
+.vit-c {
+    background: linear-gradient(to right, #7dbfe0, #0088CC);
+    color: white;
+    padding: 30px;
+}
+.vit-c h3{
+    color: white;
+}
+
+#image {
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gridthree{
+    grid-template-columns: auto auto auto;
+    grid-gap: 100px;
+    border-radius: 80px;
+}
+
+.framethree {
+    border-radius: 80px;
+    width: 300px;
+    background-color:rgb(92, 76, 150);
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.framethree img{
+    padding: 30px 30px 10px 30px;
+    width: 300px;
+    height: 300px;
+    border-radius: 80px;
+}
+
+.framethree .pic-text {
+    font-family: "Londrina Solid", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5px;
+    color: white;
+}
+
+.framethree p {
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(255, 255, 255, 0.678);
+    width: 170px;
+}
+
+.vid video {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+h4 {
+    font-family: "Noto Serif", serif;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 20px;
+    color: #CC7722;
+}
+
+/*Mobile recipes*/
+#shake h3, #graham h3, #salad h3, #pie h3 {
+    color: #CC7722;
+    font-size: 40px;
+}
+
+#shake h4, #graham h4, #salad h4, #pie h4 {
+    color:rgb(184, 141, 26);
+    font-size: 25px;
+    font-family: "Noto Serif", serif;
+}
+
+#shake img, #graham img, #salad img, #pie img{
+    width: 60%;
+    padding-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#graham, #pie {
+    background: linear-gradient(to right, #DBF1F1, #66DEDE);
+}
+
+.ingredients ul li, .steps ol li {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    width: 200px;
+    font-family: "Yaldevi", sans-serif;
+    font-weight: 600;
+}
+
+.ingredients ul .steps ol{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60px;
+}
+
+.steps {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+/*Mobile contacts*/
+.contact-details h2 {
+    text-align: center;
+    padding: 20px;
+    font-family: "Passion One", sans-serif;
+    color:#C49102;
+    font-size: 50px;
+}
+
+.contact-info div{
+    padding: 30px;
+    text-align: center;
+    width: 400px;
+    font-family: "Yaldevi", sans-serif;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-info div img{
+    padding: 30px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-container {
+    padding: 40px;
+    background-color: #66DEDE;
+}
+
+.form-container h2 {
+    text-align: center;
+    padding: 20px;
+    font-family: "Passion One", sans-serif;
+    color:#0C80BA;
+    font-size: 50px;
+}
+
+.form-container input, textarea {
+    width: 300px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-container label {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Yaldevi", sans-serif;
+    font-weight: 600;
+}
+
+/*Mobile footer*/
+footer {
+    padding: 50px;
+    text-align: center;
+    color: white;
+    background-color: #7dbfe0;
+    font-family: "Noto Serif", serif;
+}
+
+footer .social img{
+    width: 50px;
+    display: inline;
+    padding: 10px;
+}
+
+/* ============================================================================= */
+/* MEDIA QUERY FOR TABLET VIEWPORT */
+@media screen and (min-width: 630px), print {
+    .tablet-desktop{
+        display: block;
+    }
+
+    .mobile, .mobile-nav {
+        display: none;
+    }
+
+    /*Tablet nav*/
+
+    #cont {
+        position: fixed;
+        background-color: white;
+        display: inline;
+        width: 100%;
+    }
+
+    header img{
+        width: 130px;
+        height: 130px;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+        margin-left: auto;
+    }
+
+    nav li{
+        color: rgb(204, 114, 30);
+        text-align: center;
+        margin-left: 5%;
+        text-decoration: none;
+        display: inline;
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+    }
+
+    nav li:last-child {
+        border-right: none;
+    }
+
+    nav li a{
+        display: inline;
+        color: rgb(204, 114, 30);
+        text-decoration: none;
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+    }
+
+    nav li a:hover {
+        color: #e79529;
+    }
+
+    #cont nav{
+        background-color: white;
+        width: 100%;
+        padding-bottom: 50px;
+        margin-right: auto;
+    }
+
+    /*Tablet home*/
+    #mangood img, #facts-pic img, #nutrition-pic img, #recipes-pic img, #contact-pic img {
+        padding-top: 200px;
+    }
+
+    .grid{
+        display: flex;
+        grid-template-columns: auto auto;
+        grid-gap: 30px;
+    }
+
+    .frame {
+        border-radius: 50px;
+        width: 200px;
+    }
+    
+    .frame img{
+        width: 200px;
+        height: 200px;
+        padding: 30px;
+    }
+    
+    .frame .pic-text {
+        border-radius: 50px;
+        padding: 20px;
+        width: 160px;
+        font-size: 23px;
+    }
+
+    /*Tablet facts*/
+    .grid-one{
+        display: flex;
+        grid-gap: 50px;
+    }
+
+    #history{
+        width: 500px;
+    }
+
+    #countries {
+        width: 500px;
+    }
+
+    .cultivation {
+        display: flex;
+        grid-gap: 10px;
+    }
+
+    .cultivation #image{
+        height: 100%;
+    }
+
+    .cultivation #text {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .gridtwo {
+        grid-gap: 20px;
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .frametwo {
+        border-radius: 50px;
+        width: 200px;
+        background-color:rgb(196, 145, 2);
+        padding-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .frametwo img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50px;
+    }
+    
+    .gridtwo .frametwo {
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    table {
+        border: 1px solid #CC7722;
+        border-collapse: collapse;
+        margin: 0 auto;
+        width: 80%;
+        background-color: #f8f5d6;
+    }
+
+    caption {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 1%;
+    }
+
+    th, td {
+        border: 1px solid #CC7722;
+        padding: 2%;
+        color: black;
+        font-weight: 600;
+        text-align: center;
+        font-family: "Yaldevi", sans-serif;
+        width: 50px;
+    }
+
+    th {
+        background-color: #CC7722;
+        color: #fff;
+        font-family: "Passion One", sans-serif;
+        font-weight: 100;
+        font-size: 1.15em;
+    }
+    /*Tablet nutrition*/
+
+    .vit-a {
+        display: flex;
+    }
+
+    .vit-a #text {
+        width: 500px;
+    }
+
+    .vit-c {
+        display: flex;
+    }
+
+    .vit-c #image{
+        width: 300px;
+        padding-right: 30px;;
+    }
+
+    .vit-c #text {
+        width: 500px;
+    }
+
+    .gridthree {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 2px;
+        border-radius: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-evenly;
+    }
+    
+    .framethree {
+        border-radius: 50px;
+        width: 200px;
+        background-color:rgb(92, 76, 150);
+        padding-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .framethree img{
+        padding: 30px 30px 10px 30px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50px;
+    }
+
+    .framethree .pic-text {
+        font-size: 20px;
+    }
+    
+    .framethree p {
+        margin-left: auto;
+        margin-right: auto;
+        color: rgba(255, 255, 255, 0.678);
+        width: 150px;
+        font-size: 10px;
+    }
+
+    .vid video {
+        padding-top: 100px;
+        width: 700px;
+    }
+
+    /*Tablet recipes*/
+
+    .gridfour {
+        display: grid;
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+    
+    .steps {
+        padding-top: 2px;
+        padding-bottom: 60px;
+    }
+
+    .ingredients {
+        padding-bottom: 60px;
+    }
+
+    /*Tablet contacts*/
+    .contact-info {
+        display: flex;
+    }
+
+}
+
+/*DESKTOP VIEWPORT */
+@media screen and (min-width: 1015px), print {
+    header {
+        background-color: white;
+        margin-right: 5%;
+        margin-left: 2%;
+        padding-bottom: 30px;
+        width: 100%;
+    }
+
+    #cont {
+        position: fixed;
+        background-color: white;
+        display: inline;
+        margin-right: 30%;
+        width: 100%;
+    }
+
+    header img{
+        width: 130px;
+        height: 130px;
+        background-color: white;
+        float: left;
+    }
+
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+        width: 100%;
+        margin-left: 10%;
+        margin-right: 20%;
+        padding-bottom: 2px;
+        padding-top: 50px;
+    }
+
+    nav li{
+        color: rgb(204, 114, 30);
+        text-align: center;
+        margin-left: 60px;
+        text-decoration: none;
+        display: inline;
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+    }
+
+    nav li:last-child {
+        border-right: none;
+    }
+
+    nav li a{
+        display: inline;
+        color: rgb(204, 114, 30);
+        text-decoration: none;
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+    }
+
+    nav li a:hover {
+        color: #e79529;
+        font-size: 25px;
+    }
+
+    /*Desktop home*/
+
+    #mangood {
+        background-color: white;
+    }
+
+    #mangood img{
+        width: 40%;
+    }
+
+    #mangood #text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+
+    #mangood h1 {
+        font-size: 150px;
+        animation: fadeIn 3s ease-in-out;
+    }
+
+    #mangood p {
+        font-size: 30px;
+        animation: fadeIn 5s ease-in-out;
+    }
+
+    /*FRAME CSS*/
+    .frame {
+        border-radius: 50px;
+        width: 300px;
+    }
+
+    .frame:hover{
+        border: 10px solid rgb(34, 34, 136);
+    }
+
+    .framethree:hover {
+        border: 10px solid rgb(34, 34, 136);
+    }
+
+    .frametwo:hover {
+        border: 10px solid rgb(88, 52, 10);
+    }
+
+    
+    .frame img{
+        width: 300px;
+        height: 300px;
+        padding: 30px;
+    }
+    
+    .frame .pic-text {
+        border-radius: 50px;
+        padding: 20px;
+        width: 200px;
+        font-size: 23px;
+    }
+
+    .feedback {
+        width: 1000px;
+    }
+    
+    .feedback h2 {
+        text-align: center;
+        width: 600px;
+        color:#C49102;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 40px;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+            transform: translateX(-50px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    
+    /*Desktop facts*/
+    #facts-pic img, #nutrition-pic img, #recipes-pic img, #contact-pic img {
+        padding-top: 5px;
+        width: 100%;
+    }
+
+    #history{
+        width: 800px;
+    }
+
+    #countries {
+        width: 800px;
+    }
+
+    .grid-one {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    
+    .cultivation p {
+        margin-left: 80%;
+        width: 100%;
+        font-size: 14px;
+        animation: fadeIn 3s ease-in-out;
+
+    }
+
+    .cultivation h3 {
+        margin-left: 80%;
+        font-size: 40px;
+        animation: fadeIn 3s ease-in-out;
+    }
+
+    .cultivation #image{
+        height: 100%;
+    }
+
+    .cultivation.active {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  
+    .frametwo {
+        border-radius: 80px;
+        width: 250px;
+        background-color:rgb(196, 145, 2);
+        padding-bottom: 20px;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    
+    .frametwo img{
+        width: 250px;
+        height: 250px;
+        border-radius: 80px;
+    }
+
+    .gridtwo {
+        grid-gap: 20px;
+        display: flex;
+        padding-bottom: 50px;
+    }
+
+    table {
+        width: 60%;
+    }
+
+    /* Desktop nutrition */
+    .vit-a {
+        padding: 30px;
+    }
+    
+    .vit-c {
+        background: linear-gradient(to right, #7dbfe0, #0088CC);
+        color: white;
+        margin-bottom: 80px;
+    }
+    .vit-c h3{
+        color: white;
+    }
+    
+    #image {
+        width: 300px;
+        height: 300px;
+        margin-left: 25%;
+        float: right;
+    }
+
+    #text {
+        margin-right: 25%;
+    }
+
+    .framethree {
+        border-radius: 80px;
+        width: 350px;
+        background-color:rgb(92, 76, 150);
+        padding-bottom: 20px;
+        margin-left: 2%;
+        margin-right: 5%;
+    }
+    
+    .framethree img{
+        width: 450px;
+        height: 250px;
+        border-radius: 80px;
+    }
+
+    .gridthree {
+        grid-gap: 1px;
+        display: flex;
+    }
+
+    .framethree .pic-text {
+        font-size: 30px;
+    }
+
+    .framethree p{
+        font-size: 12px;
+        width: 200px;
+        text-align: center;
+    }
+
+    .vid video {
+        width: 900px;
+    }
+
+    h4 {
+        font-size: 28px;
+    }
+
+    /* Desktop recipes */
+    #shake img, #graham img, #salad img, #pie img{
+        width: 40%;
+        height: 8%;
+        margin-bottom: 80px;
+        margin-left: 5%;
+    }
+
+    #shake, #graham, #salad, #pie{
+        display: flex;
+    }
+
+    #shake h3, #graham h3, #salad h3, #pie h3 {
+        margin-top: 300px;
+        margin-left: 2%;
+    }
+
+    .steps, .ingredients {
+        margin-top: 100px;
+        margin-right: 60%;
+        
+    }
+
+    .gridfour .ingredients, .gridfour .steps{
+        margin-left: 5%;
+        margin-right: 60%;
+       
+    }
+
+    /* Desktop contacts */
+    .contact-details {
+        margin-top: 100px;
+    }
+
+    .form-container {
+        width: 800px;
+        border-radius: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
+
+@media print {
+
+    main, body {
+        background-color: #fff;
+        color: #000;
+    }
+
+    #facts-pic img, #nutrition-pic img, #recipes-pic img, #contact-pic img, .cultivation img, .mobile-nav, .tablet-desktop, a, .social, .feedback{
+        display: none;
+    }
+
+
+    #text, h1, h2, h3, p, a, figcaption, .cultivation h3, .cultivation p{
+        font-family: Verdana, sans-serif;
+        text-align: left;
+        color: black;
+        display: block;
+    }
+
+    .grid, .grid-one, .gridfour, .gridthree, .gridtwo {
+        display: grid;
+    }
+
+    #cont{
+        display: none;
+    }
+
+    #pic-left, #pic-right, .vid{
+        display: none;
+    }
+
+    h4, .copyright p {
+        text-align: center;
+    }
+
+    .ingredients, .steps{
+        font-size: 12px;
+        font-family: Verdana, sans-serif;
+        color: black;
+    }
+
+    .contact-info img {
+        width: 60px;
+        height: 150px;
+    }
+
+}

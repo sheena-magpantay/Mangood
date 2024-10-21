@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <!--
+    Full Name: Sheena Marie B. Magpantay
+    Section: CS204
+    -->
+    <title> Facts | Mangood</title>
+    <meta charset = "utf-8">
+    <link rel="stylesheet" href = "css/styles.css" type="text/css">
+    <meta name ="viewport" content="width=device-width" initial-scale="1.0" >
+    <meta name="description" content="Mangood is an all in one website about mangoes. ">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Yaldevi:wght@200..700&display=swap" rel="stylesheet">
+    <link rel ="icon" href = "images/logo.png">
+</head>
+
+<body>
+    <div id = "container">
+        <!--Mobile Nav-->
+        <nav class="mobile-nav">
+            <div id="menu-links">
+                <a href = "index.html">Home</a>
+                <a href = "facts.html">Facts</a>
+                <a href = "nutrition.html">Nutrition</a> 
+                <a href = "recipes.html">Recipes</a> 
+                <a href = "contact.html">Contact Us</a>
+            </div>
+            <a class="menu-icon" onclick ="hamburger()"><div>&#9776;</div></a>
+        </nav>
+        
+        <div id="cont">
+            <header id="logo">
+                <a href = "index.html">
+                    <img src ="images/logo.png" alt = "Mangood Logo">
+                </a>
+                <nav class="tablet-desktop">
+                    <ul>
+                        <li><a href = "index.html">Home</a></li> 
+                        <li><a href = "facts.html">Facts</a></li>
+                        <li><a href = "nutrition.html">Nutrition</a></li>
+                        <li><a href = "recipes.html">Recipes</a></li> 
+                        <li><a href = "contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+
+        <div id="facts-pic">
+            <img src="images/facts.png" alt="lots of diced mangoes">
+        </div>
+
+        <main>
+            <div class="grid-one">
+                <div id = "history">
+                    <h3>HISTORY</h3>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;India's religious rituals and folklore are closely linked to the mango. Buddha was given a mango grove so that he may rest in its appreciative shade. The Malayam manna, which the Portuguese called manga when they arrived in Kerala in 1498 to engage in the spice trade, is most likely the source of the name mango, by which the fruit is known in English- and Spanish-speaking nations. The reason behind the tree's introduction into the Western Hemisphere about 1700, when it was planted in Brazil, is likely due to the challenge of transferring seeds, which lose their viability quickly. The tree eventually made its way to the West Indies around 1740. </p>
+                </div>
+
+                <div id="countries">
+                    <h3>TOP 10 MANGO PRODUCING COUNTRIES IN THE WORLD</h3>
+                    <a href ="#more-info">Click here for more info</a>
+                    <img src="images/countries.png" alt="top 10 mango producing countries in the world">
+                </div>
+            </div>
+            <div class = "cultivation">
+                <div id="text">
+                    <h3>CULTIVATION</h3>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;Mango can grow in both tropical and subtropical climates, from sea level to 1400 m altitude, as long as there is no high humidity, rain, or frost during the flowering time. Mango cultivation works best in areas with a dry summer and sufficient of rainfall. It is best to avoid places with strong winds and cyclones, as these can cause flower and fruit shedding and branch breaking. Mangoes grow on a variety of soil types, from alluvial to laterite, as long as they are well-drained and deep (minimum 6'). It favors soils that are quite acidic (pH 5.5 to 7.5).</p>
+                </div>
+
+                <div id="image">
+                    <img src="images/cultivation.jpg" alt="old woman holding a mango">
+                </div>
+            </div>
+
+            <div class="types">
+                <h3>TYPES OF MANGOES</h3>
+                <div class ="gridtwo">
+                    <figure class ="frametwo">
+                        <a href ="https://specialtyproduce.com/produce/Alphonso_Mangoes_121233.php"><img src ="images/8.png" alt="alphonso mangoes in a container"/></a>
+                        <figcaption class ="pic-text">Alphonso</figcaption>
+                    </figure>
+
+                    <figure class ="frametwo">
+                        <a href ="https://www.inaturalist.org/taxa/48872-Mangifera-indica"><img src ="images/9.png" alt="green indian mango"/></a>
+                        <figcaption class ="pic-text">Indian</figcaption>
+                    </figure>
+
+                    <figure class ="frametwo">
+                        <a href ="https://cjgardeningcenter.com/products/manila-mango"><img src ="images/10.png" alt="yellow manila mangoes"/></a>
+                        <figcaption class ="pic-text">Manila</figcaption>
+                    </figure>
+
+                    <figure class ="frametwo">
+                        <a href ="https://up-fruit.com/fruit/palmer-mango/"><img src ="images/11.png" alt="red palmer mangoes"/></a>
+                        <figcaption class ="pic-text">Palmer</figcaption>
+                    </figure>
+
+                    <figure class ="frametwo">
+                        <a href ="https://goodfruitguide.co.uk/product/kesar/"><img src ="images/12.png" alt="four kesar mangoes"/></a>
+                        <figcaption class ="pic-text">Kesar</figcaption>
+                    </figure>
+                </div>
+            </div>
+            
+            <section id="more-info">
+                <h2>TOP 10 MANGO PRODUCING COUNTRIES IN THE WORLD</h2>
+                <table>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Country</th>
+                        <th>Production (in million tons)</th>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td>India</td>
+                        <td>26.3M</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Indonesia</td>
+                        <td>4.1M</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>China</td>
+                        <td>3.8M</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Pakistan</td>
+                        <td>2.8M</td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Mexico</td>
+                        <td>2.5M</td>
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td>Brazil</td>
+                        <td>2.1M</td>
+                    </tr>
+                    <tr>
+                        <td>7.</td>
+                        <td>Malawi</td>
+                        <td>1.9M</td>
+                    </tr>
+                    <tr>
+                        <td>8.</td>
+                        <td>Bangladesh</td>
+                        <td>1.5M</td>
+                    </tr>
+                    <tr>
+                        <td>9.</td>
+                        <td>Vietnam</td>
+                        <td>1.4M</td>
+                    </tr>
+                    <tr>
+                        <td>10.</td>
+                        <td>Thailand</td>
+                        <td>1.4M</td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+
+        <footer>
+            <div class ="social">
+                <a href = "https://www.facebook.com/" target="_blank">
+                <img src = "images/facebook.png" alt="blue Facebook logo">
+                </a>
+                <a href = "https://instagram.com" target="_blank">
+                <img src = "images/instagram.png" alt="colorful instagram logo">
+                </a>
+            </div>
+            <div class = "copyright">
+                <p>&copy; 2024, Mangood | All Rights Reserved.</p>
+            </div>
+        </footer>
+
+    </div>
+    <script src= "scripts/script.js"></script>
+</body>
+</html>

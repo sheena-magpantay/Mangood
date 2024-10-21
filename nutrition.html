@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <!--
+    Full Name: Sheena Marie B. Magpantay
+    Section: CS204
+    -->
+    <title> Nutrition | Mangood</title>
+    <meta charset = "utf-8">
+    <link rel="stylesheet" href = "css/styles.css" type="text/css">
+    <meta name ="viewport" content="width=device-width" initial-scale="1.0" >
+    <meta name="description" content="Mangood is an all in one website about mangoes. ">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Yaldevi:wght@200..700&display=swap" rel="stylesheet">
+    <link rel ="icon" href = "images/logo.png">
+</head>
+
+<body>
+    <div id = "container">
+        <!--Mobile Nav-->
+        <nav class="mobile-nav">
+            <div id="menu-links">
+                <a href = "index.html">Home</a>
+                <a href = "facts.html">Facts</a>
+                <a href = "nutrition.html">Nutrition</a> 
+                <a href = "recipes.html">Recipes</a> 
+                <a href = "contact.html">Contact Us</a>
+            </div>
+            <a class="menu-icon" onclick ="hamburger()"><div>&#9776;</div></a>
+        </nav>
+        
+        <div id="cont">
+            <header id="logo">
+                <a href = "index.html">
+                    <img src ="images/logo.png" alt = "Mangood Logo">
+                </a>
+                <nav class="tablet-desktop">
+                    <ul>
+                        <li><a href = "index.html">Home</a></li> 
+                        <li><a href = "facts.html">Facts</a></li>
+                        <li><a href = "nutrition.html">Nutrition</a></li>
+                        <li><a href = "recipes.html">Recipes</a></li> 
+                        <li><a href = "contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+
+        <div id="nutrition-pic">
+            <img src="images/nutrition.png" alt="mangoes with water splash">
+        </div>
+
+        <main>
+            <div class = "vit-a">
+                <div id="image">
+                    <img src="images/5.png" alt="mango with vitamin A">
+                </div>
+
+                <div id="text">
+                    <h3>VITAMIN A</h3>
+                    <p>&nbsp;&nbsp;&nbsp;Mango has a high vitamin A content. A single cup of mango contains around 25% of the daily recommended intake of vitamin A. This vitamin serves numerous vital roles in the body, particularly in the eyes and skin. It also strengthens your immune system, reproductive system, and bones.</p>
+                </div>
+            </div>
+
+            <div class = "vit-c">
+                <div id="image">
+                    <img src="images/6.png" alt="mango with vitamin C">
+                </div>
+
+                <div id="text">
+                    <h3>VITAMIN C</h3>
+                    <p>&nbsp;&nbsp;&nbsp;Mango is one of the richest food sources of vitamin C. The immune system in your body depends on this vitamin. It also contributes to the formation of bones, muscles, and tendons. Because mangoes are high in vitamin C, eating them enhances plant iron absorption. 46 milligrams of vitamin C, or almost 76% of the daily recommended amount, may be found in one cup of mango.</p>
+                </div>
+            </div>
+            
+            <div>
+                <h3>GET HEALTHY WITH THESE RECIPES</h3>
+                <div class ="gridthree">
+                    <figure class ="framethree">
+                        <a href ="recipes.html"><img src ="images/13.png" alt="mango shake beside a mango"/></a>
+                        <figcaption class ="pic-text">MANGO SHAKE</figcaption>
+                        <p>Try to make a sweet and refreshing mango shake </p>
+                    </figure>
+
+                    <figure class ="framethree">
+                        <a href ="recipes.html"><img src ="images/14.png" alt="mango graham in a container"/></a>
+                        <figcaption class ="pic-text">MANGO GRAHAM</figcaption>
+                        <p>Mango and Graham are perfect combination, try it now!</p>
+                    </figure>
+
+                    <figure class ="framethree">
+                        <a href ="recipes.html"><img src ="images/15.png" alt="mango kani salad with kewpie drizzle"/></a>
+                        <figcaption class ="pic-text">MANGO KANI SALAD</figcaption>
+                        <p>Make your mango more nutritious by putting it in a salad</p>
+                    </figure>
+
+                    <figure class ="framethree">
+                        <a href ="recipes.html"><img src ="images/16.png" alt="decorated slice of mangoes on a pie"/></a>
+                        <figcaption class ="pic-text">MANGO PIE</figcaption>
+                        <p>Elevate the taste of your pie with sweet mangoes</p>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="vid">
+                <video controls poster = "images/vidthumbnail.jpg">
+                    <source src ="media/health.mp4" type = "video/mp4">
+                    <source src = "media/health.webm" type = "video/webm">
+                    <track src = "media/health.vtt" kind = "captions" srclang= "en-us" label="English">
+                    <p>Your browser does not support the video element.</p>
+                </video>
+            </div>
+
+            <h4>Video by: Trini Can Cook</h4>
+        </main>
+        <footer>
+            <div class ="social">
+                <a href = "https://www.facebook.com/" target="_blank">
+                <img src = "images/facebook.png" alt="blue Facebook logo">
+                </a>
+                <a href = "https://instagram.com" target="_blank">
+                <img src = "images/instagram.png" alt="colorful instagram logo">
+                </a>
+            </div>
+            <div class = "copyright">
+                <p>&copy; 2024, Mangood | All Rights Reserved.</p>
+            </div>
+        </footer>
+
+    </div>
+    <script src= "scripts/script.js"></script>
+</body>
+</html>
